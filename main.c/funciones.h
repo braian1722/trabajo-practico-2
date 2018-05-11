@@ -19,7 +19,6 @@
  //* /
  void  cargarPersona (ePersona []);
 
-
  // * * \ brief borra una persona
  //*
  //\ param el array se pasa como parametro
@@ -27,14 +26,13 @@
  //*
  //* /
  void  borrarPersona (ePersona []);
-
  // * *  brief ordena alfabeticamente las personas
  //*
 // *  param el array se pasa como parametro
  //*  return no retorna ningun dato
  //*
  //*
- void  ordenar (ePersona []);
+ void  ordenarpornombre (ePersona []);
 
  // * *  brief lista las personas por pantalla
 
@@ -51,7 +49,7 @@
  //* \ return no retorna ningun dato
  //*
  //*
- void  grafico (ePersona []);
+ void  graficodeEdades (ePersona []);
 
 
 

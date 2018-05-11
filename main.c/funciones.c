@@ -86,7 +86,7 @@ void borrarPersona(ePersona borrar[])
     }
 }
 
-void ordenar(ePersona ordenar[])
+void ordenarpornombre(ePersona ordenar[])
 {
 
     int i, x;
@@ -120,12 +120,14 @@ for(i=0; i<TAM; i++)
 }
 }
 
-void grafico(ePersona personas[])
+void graficodeEdades(ePersona personas[])
 {
     int i;
     int cont18 = 0;
     int cont19a35 = 0;
     int cont35 = 0;
+
+
     int flag=0;
     int maximo;
 

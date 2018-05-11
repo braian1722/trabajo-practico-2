@@ -46,12 +46,12 @@ int main()
             break;
 
         case 3:
-            ordenar(personas);
+            ordenarpornombre(personas);
             mostrarPersonas(personas);
             break;
 
         case 4:
-            grafico(personas);
+            graficodeEdades(personas);
             break;
         case 5:
             seguir = 'n';
